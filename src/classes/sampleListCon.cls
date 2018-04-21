@@ -1,4 +1,3 @@
-/*Update 2 on 4/21*/
 public class sampleListCon {
         String[] countries = new String[]{};
             
