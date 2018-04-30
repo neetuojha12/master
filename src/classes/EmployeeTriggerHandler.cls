@@ -11,4 +11,8 @@ public class EmployeeTriggerHandler{
         String returnValue = (String) callFlow.getVariableValue('varOutput');
         System.debug('Flow returned ' + returnValue);        
     }
+	
+	public static fetchEmpName void(){
+		System.debug('--fetchEmpName--');
+	}
 }
