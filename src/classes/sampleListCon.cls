@@ -20,5 +20,9 @@ public class sampleListCon {
             
         public void setCountries(String[] countries) {
             this.countries = countries;
+        }   
+		
+        public void fetchCountries() {
+            system.debug(---fetchCountries--);
         }
     }
